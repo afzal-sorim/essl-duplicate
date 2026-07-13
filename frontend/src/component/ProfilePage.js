@@ -35,7 +35,7 @@ function ProfilePage({ user }) {
   return (
     <div className="home-page">
       <nav className="navbar">
-        <span className="navbar-brand">ESSL System</span>
+        <span className="navbar-brand">Sorim System</span>
         <span>Profile</span>
         <div className="nav-icons">
           <FaArrowLeft className="user-icon" onClick={handleBack} />

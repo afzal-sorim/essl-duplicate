@@ -1,5 +1,5 @@
 {
-  "name": "essl-login-frontend",
+  "name": "Sorim-login-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:e2e": "playwright test"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "playwright": "^1.61.0"
   }
 }

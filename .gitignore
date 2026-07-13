@@ -56,6 +56,10 @@ nbdist/
 *.log
 !app.log
 
+### Playwright ###
+frontend/test-results/
+frontend/playwright-report/
+
 ### React / Node ###
 frontend/node_modules/
 frontend/build/

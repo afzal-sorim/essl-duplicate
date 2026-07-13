@@ -24,7 +24,7 @@ function HomePage({ user, onLogout }) {
   return (
     <div className="home-page">
       <nav className="navbar">
-        <span className="navbar-brand">ESSL System</span>
+        <span className="navbar-brand">Sorim System</span>
         <span>Welcome, {user.firstname}!</span>
         <div className="nav-icons">
           <FaUser className="user-icon" onClick={toggleUserMenu} />
